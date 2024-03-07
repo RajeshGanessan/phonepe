@@ -9,10 +9,7 @@ public interface SearchPage {
     void clickOnProduct(String productName);
 
     Product getProductDetails();
-
-    static void getProductNames(){
-        System.out.println("test interface");
-    }
+    
 
 
 }
